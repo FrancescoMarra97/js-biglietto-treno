@@ -21,6 +21,10 @@ console.log(age);
 //prezzo per km
 let Price_km=0.21;
 
+//prezzo totale senza sconti
+
+let tot = Price_km * numKm;
+
 
 
 
