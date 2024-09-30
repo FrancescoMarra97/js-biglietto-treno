@@ -30,18 +30,18 @@ if (age <= 17){
    let sale = 0.20;
    tot = tot - (tot*sale);
    console.log(tot.toFixed(2));
-   alert("Il prezzo totale del biglietto è: €" + tot);
+   alert("Il prezzo totale del biglietto è: €" + tot.toFixed(2));
 }
 //se over 65 - 40%
 else if (age >= 65){
     let sale = 0.40;
    tot = tot - (tot*sale);
    console.log(tot.toFixed(2));
-   alert("Il prezzo totale del biglietto è: " + tot);
+   alert("Il prezzo totale del biglietto è: " + tot.toFixed(2));
 } 
     else{
         console.log(tot.toFixed(2)); 
-        alert("Il prezzo totale del biglietto è: " + tot);       
+        alert("Il prezzo totale del biglietto è: " + tot.toFixed(2));       
     }
 //massimo due decimali
 
