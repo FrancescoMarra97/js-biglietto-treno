@@ -12,11 +12,17 @@ Questo richiederà un minimo di ricerca.
 //chiedere all'utente il numero di km e l'età del passeggero
 //crea variabile numKm age e price
 let numKm = prompt("Inserire il numero di km da percorrere")
-let age = prompt("Inserisci la tua età");
-let price; //num km * (prezzo - sconto età)
-
 console.log(numKm);
+
+let age = prompt("Inserisci la tua età");
 console.log(age);
+
+
+//prezzo per km
+let Price_km=0.21;
+
+
+
 
 
 
