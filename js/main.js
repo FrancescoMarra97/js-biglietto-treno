@@ -29,20 +29,20 @@ let tot = Price_km * numKm;
 if (age <= 17){
    let sale = 0.20;
    tot = tot - (tot*sale);
-   console.log(tot);
+   console.log(tot.toFixed(2));
    alert("Il prezzo totale del biglietto è: €" + tot);
 }
 //se over 65 - 40%
 else if (age >= 65){
     let sale = 0.40;
    tot = tot - (tot*sale);
-   console.log(tot);
+   console.log(tot.toFixed(2));
    alert("Il prezzo totale del biglietto è: " + tot);
 } 
     else{
-        console.log(tot); 
+        console.log(tot.toFixed(2)); 
         alert("Il prezzo totale del biglietto è: " + tot);       
     }
-//calcola il totale del prezzo in base ai km (0.21€ al km)
+//massimo due decimali
 
 
