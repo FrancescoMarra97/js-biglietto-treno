@@ -11,22 +11,23 @@ Questo richiederà un minimo di ricerca.
 
 //chiedere all'utente il numero di km e l'età del passeggero
 //crea variabile numKm age e price
-let numKm;
-let age;
+let numKm = prompt("Inserire il numero di km da percorrere")
+let age = prompt("Inserisci la tua età");
 let price; //num km * (prezzo - sconto età)
 
-numKm=prompt("Inserire il numero di km da percorrere");
-age=prompt("Inserisci la tua età");
+console.log(numKm);
+console.log(age);
+
 
 
 
 //se minorenne -20%
 if (age <= 17){
-    price=(numKm * 0.21) - 20%;
+   
 }
 //se over 65 - 40%
 else if (age >= 65){
-    price=
+
 }
 //calcola il totale del prezzo in base ai km (0.21€ al km)
 
