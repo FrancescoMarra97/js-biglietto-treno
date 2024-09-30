@@ -27,14 +27,14 @@ let tot = Price_km * numKm;
 
 //se minorenne -20%
 if (age <= 17){
-   let sale = 20%;
+   let sale = 20%
    tot= tot - (tot*sale);
    console.log(tot);
    prompt(tot)
 }
 //se over 65 - 40%
 else if (age >= 65){
-    let sale = 40%;
+    let sale = 40%
    tot= tot - (tot*sale);
    console.log(tot);
    prompt(tot)
